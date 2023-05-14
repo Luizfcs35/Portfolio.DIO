@@ -12,7 +12,7 @@
   height: 2rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url('/assets/img/icons/more_horiz_white_24dp.svg');
+  background-image: url('/Portfolio.DIO/assets/img/icons/more_horiz_white_24dp.svg');
   position: absolute;
   top: .5rem;
   right: .5rem;
@@ -55,20 +55,20 @@
 }
 
 .information .job::before {
-  background-image: url("/assets/img/icons/person_white_24dp.svg");
+  background-image: url("/Portfolio.DIO/assets/img/icons/person_white_24dp.svg");
 
 }
 
 .information .location::before {
-  background-image: url("/assets/img/icons/location_on_white_24dp.svg");
+  background-image: url("/Portfolio.DIO/assets/img/icons/location_on_white_24dp.svg");
 }
 
 .information .phone::before {
-  background-image: url("/assets/img/icons/call_white_24dp.svg");
+  background-image: url("/Portfolio.DIO/assets/img/icons/call_white_24dp.svg");
 }
 
 .information .email::before {
-  background-image: url("/assets/img/icons/email_white_24dp.svg");
+  background-image: url("/Portfolio.DIO/assets/img/icons/email_white_24dp.svg");
 }
 
 

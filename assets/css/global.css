@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(/assets/css/footer.css);
+@import url(/Portfolio.DIO/assets/css/footer.css);
 
 * {
   box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "neue machina";
-  src: url(/assets/fonts/neue-machina-regular.otf);
+  src: url(/Portfolio.DIO/assets/fonts/neue-machina-regular.otf);
 }
 
 body {

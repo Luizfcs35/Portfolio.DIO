@@ -13,7 +13,7 @@
   height: 1rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url('/assets/img/icons/check_white_24dp.svg');
+  background-image: url('/Portfolio.DIO/assets/img/icons/check_white_24dp.svg');
   transition: all .5s;
   padding: 0 .20rem;
 }
