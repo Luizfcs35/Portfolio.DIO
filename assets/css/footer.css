@@ -1,0 +1,28 @@
+@import url(/assets/css/global.css);
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  max-width: 1024px;
+  color: #30363d;
+  background-color: transparent;
+  border: 1px solid #30363d;
+  border-radius: 1rem;
+  
+}
+
+
+@media screen and (min-width: 768px) {
+  .rodape {
+    margin: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .rodape {
+    margin: 2rem auto;
+  }
+
+}
