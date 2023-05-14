@@ -1,0 +1,99 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.header::before{
+  content: "";
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/assets/img/icons/more_horiz_white_24dp.svg');
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+}
+
+.header .photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.header .title {
+  font-family: "neue machina";
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.information p {
+  margin: .5rem;
+}
+
+.information p::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.5rem;
+}
+
+.information .job::before {
+  background-image: url("/assets/img/icons/person_white_24dp.svg");
+
+}
+
+.information .location::before {
+  background-image: url("/assets/img/icons/location_on_white_24dp.svg");
+}
+
+.information .phone::before {
+  background-image: url("/assets/img/icons/call_white_24dp.svg");
+}
+
+.information .email::before {
+  background-image: url("/assets/img/icons/email_white_24dp.svg");
+}
+
+
+
+@media only screen and (min-width:768px){
+  .header {
+    display: grid;
+    grid-template-areas: 
+      "photo title"
+      "photo information";
+    align-items: center;
+  }
+ 
+  .header .photo {
+  grid-area: photo;
+  margin: 0 auto;
+  }
+
+  .header .title {
+   grid-area: title;
+   text-align: start;
+  }
+
+  .information {
+   grid-area: information;
+   text-align: center;
+  }
+}
