@@ -11,5 +11,9 @@ This is a portfolio of projects I have worked on Developer Javascript / DIO.
 * Github
 
 ## Consumo de api
-* https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/projeto-base/data/profile.json
+atualização da api.
+
+* https://raw.githubusercontent.com/Luizfcs35/Portfolio.DIO/main/assets/data/profile.json
+
+
 
