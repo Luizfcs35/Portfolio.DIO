@@ -64,18 +64,27 @@
   },
   "languages": [
     "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (iniciante)"
+    "Inglês (iniciante)"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Projeto curriculum Online",
+      "url": "https://luizfcs35.github.io/curriculum-Vitae-On-line/",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Projeto SpiderMan-Multiverso",
+      "url": "https://github.com/Luizfcs35/SpiderMan-Multiverso",
+      "github": true
+    },
+    {
+      "name": "Projeto 1º site completo",
+      "url": "https://luizfcs35.github.io/Meu-Primeiro-Site-Completo---DIO/",
+      "github": true
+    },
+    {
+      "name": "Projeto Wikipedia (Responsivo)",
+      "url": "https://luizfcs35.github.io/Desafio-Wikipedia-DIO/",
       "github": true
     }
   ],
