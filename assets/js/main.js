@@ -78,10 +78,8 @@ function updateExperience(profileData) {
     return `
             <li>
               <h3 class="title">${experience.name}</h3>
-                <p class="period">${experience.period}</p>
-                <p>
-                 ${experience.description}
-                </p>
+              <p class="period">${experience.period}</p>
+              <p>${experience.description}</p>
             <li>`      
   }).join("");
 }
@@ -93,4 +91,5 @@ function updateExperience(profileData) {
   updateHardSkills(profileData);
   updateLanguages(profileData);
   updatePortfolio(profileData);
+  updateExperience(profileData);
 })();
