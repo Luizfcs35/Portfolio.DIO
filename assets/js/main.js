@@ -56,12 +56,12 @@ function updateLanguages(profileData) {
 
 =======
 function updatePortfolio (profileData) {
-  const portfolio = document.getElementsByClassName("portfolio");
-  portfolio.innerHTML = profileData.portfolio.map(project =>{
+  const portfolioProjects = document.getElementsByClassName("portfolio");
+  portfolioProjects.innerHTML = profileData.portfolio.map(portfolio =>{
     return ` 
-      <h3 class="title github">${project.name}</h3>
-      <a href="${project.url}" target="_blank">
-        Clique aqui
+      <h3 class="title github">${portfolio.name}</h3>
+      <a href="${portfolio.url}" target="_blank">
+      ${portfolio.domain}
       </a>`
   }).join("");
 }
