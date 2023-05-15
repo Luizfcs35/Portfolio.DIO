@@ -69,21 +69,25 @@
   "portfolio": [
     {
       "name": "Projeto curriculum Online",
+      "domain": "Curriculum Vitae Online",
       "url": "https://luizfcs35.github.io/curriculum-Vitae-On-line/",
       "github": true
     },
     {
       "name": "Projeto SpiderMan-Multiverso",
+      "domain": "SpiderMan-Multiverso",
       "url": "https://github.com/Luizfcs35/SpiderMan-Multiverso",
       "github": true
     },
     {
       "name": "Projeto 1º site completo",
+      "domain": "Meu Primeiro Site Completo",
       "url": "https://luizfcs35.github.io/Meu-Primeiro-Site-Completo---DIO/",
       "github": true
     },
     {
       "name": "Projeto Wikipedia (Responsivo)",
+      "domain": "Wikipedia-DIO",
       "url": "https://luizfcs35.github.io/Desafio-Wikipedia-DIO/",
       "github": true
     }
