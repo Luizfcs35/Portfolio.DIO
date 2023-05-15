@@ -51,6 +51,10 @@ function updateLanguages(profileData) {
   langs.innerHTML = profileData.languages.map((languages) => `<li>${languages}</li>`).join("");
 }
 
+<<<<<<< HEAD
+
+
+=======
 function updatePortfolio (profileData) {
   const portfolio = document.getElementsByClassName("portfolio");
   portfolio.innerHTML = profileData.portfolio.map(project =>{
@@ -61,9 +65,10 @@ function updatePortfolio (profileData) {
         Clique aqui
       </a>
     </li>`
-  })
+  }).join("");
 }
 
+>>>>>>> 7647a7e5ddaa6d28e0932c47d2d4dab9b2462286
 (async () => {
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
