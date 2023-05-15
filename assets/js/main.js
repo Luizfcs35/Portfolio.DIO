@@ -47,6 +47,7 @@ function updateHardSkills(profileData) {
 
 function updateLanguages(profileData) {
   const langs = document.getElementById("languages");
+
   langs.innerHTML = profileData.languages.map((languages) => `<li>${languages}</li>`).join("");
 }
 
@@ -69,4 +70,5 @@ function updatePortfolio (profileData) {
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
   updateLanguages(profileData);
+  updatePortfolio(profileData);
 })();
