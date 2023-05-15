@@ -58,16 +58,32 @@ function updateLanguages(profileData) {
 function updatePortfolio(profileData) {
   const portfolioProjects = document.getElementById("portfolio");
   portfolioProjects.innerHTML = profileData.portfolio
-    .map((portfolio) => {
+    .map((portfolio) => {      
       return `
-              <h3 ${portfolio.github ? 'class="github"' : ""} >
+            <li>
+              <h3 ${portfolio.github ? 'class="github"' : ''}>
                 ${portfolio.name}
               </h3>
-              <a href="${portfolio.url}" target="_blank">
-                ${portfolio.domain}
+              <a href="${portfolio.url}" target="_blank">${portfolio.domain}
               </a>
+            </li> 
       `
     }).join("");
+}
+
+function updateExperience(profileData) {
+  const experience = document.getElementById("experience");
+  experience.innerHTML = profileData.professionalExperience
+  .map((experience) => {
+    return `
+            <li>
+              <h3 class="title">${experience.name}</h3>
+                <p class="period">${experience.period}</p>
+                <p>
+                 ${experience.description}
+                </p>
+            <li>`      
+  }).join("");
 }
 
 (async () => {
